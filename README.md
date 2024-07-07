@@ -41,7 +41,7 @@ Before you start, make sure you have the following:
 
 - `gaussianBlurNPP.cpp`: The main source code file where the Gaussian blur is implemented.
 - `Makefile`: The file used to build the project.
-- `output/`: The directory where the processed images will be saved.
+- `PGM_Images/`: The directory where the processed images will be saved.
 
 ## How to Use
 
@@ -54,7 +54,7 @@ Before you start, make sure you have the following:
 
 ### Example
 
-1. Place images: Put your images in `input/PGM_Images`.
+1. Place images: Put your images in `/PGM_Images`.
 
 2. Run the program:
     ```sh
