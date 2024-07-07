@@ -1,0 +1,125 @@
+Building project...
+make[1]: Entering directory '/home/coder/project/boxFilterNPP'
+make[1]: 'gaussianBlurNPP' is up to date.
+make[1]: Leaving directory '/home/coder/project/boxFilterNPP'
+Running project...
+./gaussianBlurNPP Starting...
+
+NPP Library Version 11.3.3
+  CUDA Driver  Version: 12.0
+  CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+Device 0 name: NVIDIA A10G
+  Total global memory: 23659937792
+  Shared memory per block: 49152
+  Registers per block: 65536
+  Warp size: 32
+  Memory pitch: 2147483647
+  Max threads per block: 1024
+  Max threads dim: [1024, 1024, 64]
+  Max grid size: [2147483647, 65535, 65535]
+Processing image: /home/coder/project/boxFilterNPP/PGM_Images/brain_398.ascii.pgm
+Image dimensions: 720x486
+Running Gaussian blur filter...
+Filter applied successfully.
+Saved image: /home/coder/project/boxFilterNPP/PGM_Images/processed/brain_398.ascii_gaussianBlur.png
+Finished processing image: /home/coder/project/boxFilterNPP/PGM_Images/brain_398.ascii.pgm
+Processing image: /home/coder/project/boxFilterNPP/PGM_Images/dragon.ascii.pgm
+Image dimensions: 475x460
+Running Gaussian blur filter...
+NPP_CHECK_NPP - eStatusNPP = -1000 for file: /home/coder/project/boxFilterNPP/PGM_Images/dragon.ascii.pgm
+Retrying (1/3) for image: /home/coder/project/boxFilterNPP/PGM_Images/dragon.ascii.pgm
+Processing image: /home/coder/project/boxFilterNPP/PGM_Images/dragon.ascii.pgm
+Image dimensions: 475x460
+Running Gaussian blur filter...
+Filter applied successfully.
+Saved image: /home/coder/project/boxFilterNPP/PGM_Images/processed/dragon.ascii_gaussianBlur.png
+Finished processing image: /home/coder/project/boxFilterNPP/PGM_Images/dragon.ascii.pgm
+Processing image: /home/coder/project/boxFilterNPP/PGM_Images/barbara.ascii.pgm
+Image dimensions: 512x512
+Running Gaussian blur filter...
+NPP_CHECK_NPP - eStatusNPP = -1000 for file: /home/coder/project/boxFilterNPP/PGM_Images/barbara.ascii.pgm
+Retrying (1/3) for image: /home/coder/project/boxFilterNPP/PGM_Images/barbara.ascii.pgm
+Processing image: /home/coder/project/boxFilterNPP/PGM_Images/barbara.ascii.pgm
+Image dimensions: 512x512
+Running Gaussian blur filter...
+Filter applied successfully.
+Saved image: /home/coder/project/boxFilterNPP/PGM_Images/processed/barbara.ascii_gaussianBlur.png
+Finished processing image: /home/coder/project/boxFilterNPP/PGM_Images/barbara.ascii.pgm
+Processing image: /home/coder/project/boxFilterNPP/PGM_Images/apollonian_gasket.ascii.pgm
+Image dimensions: 600x600
+Running Gaussian blur filter...
+NPP_CHECK_NPP - eStatusNPP = -1000 for file: /home/coder/project/boxFilterNPP/PGM_Images/apollonian_gasket.ascii.pgm
+Retrying (1/3) for image: /home/coder/project/boxFilterNPP/PGM_Images/apollonian_gasket.ascii.pgm
+Processing image: /home/coder/project/boxFilterNPP/PGM_Images/apollonian_gasket.ascii.pgm
+Image dimensions: 600x600
+Running Gaussian blur filter...
+Filter applied successfully.
+Saved image: /home/coder/project/boxFilterNPP/PGM_Images/processed/apollonian_gasket.ascii_gaussianBlur.png
+Finished processing image: /home/coder/project/boxFilterNPP/PGM_Images/apollonian_gasket.ascii.pgm
+Processing image: /home/coder/project/boxFilterNPP/PGM_Images/mona_lisa.ascii.pgm
+Image dimensions: 250x360
+Running Gaussian blur filter...
+NPP_CHECK_NPP - eStatusNPP = -1000 for file: /home/coder/project/boxFilterNPP/PGM_Images/mona_lisa.ascii.pgm
+Retrying (1/3) for image: /home/coder/project/boxFilterNPP/PGM_Images/mona_lisa.ascii.pgm
+Processing image: /home/coder/project/boxFilterNPP/PGM_Images/mona_lisa.ascii.pgm
+Image dimensions: 250x360
+Running Gaussian blur filter...
+Filter applied successfully.
+Saved image: /home/coder/project/boxFilterNPP/PGM_Images/processed/mona_lisa.ascii_gaussianBlur.png
+Finished processing image: /home/coder/project/boxFilterNPP/PGM_Images/mona_lisa.ascii.pgm
+Processing image: /home/coder/project/boxFilterNPP/PGM_Images/baboon.ascii.pgm
+Image dimensions: 512x512
+Running Gaussian blur filter...
+NPP_CHECK_NPP - eStatusNPP = -1000 for file: /home/coder/project/boxFilterNPP/PGM_Images/baboon.ascii.pgm
+Retrying (1/3) for image: /home/coder/project/boxFilterNPP/PGM_Images/baboon.ascii.pgm
+Processing image: /home/coder/project/boxFilterNPP/PGM_Images/baboon.ascii.pgm
+Image dimensions: 512x512
+Running Gaussian blur filter...
+Filter applied successfully.
+Saved image: /home/coder/project/boxFilterNPP/PGM_Images/processed/baboon.ascii_gaussianBlur.png
+Finished processing image: /home/coder/project/boxFilterNPP/PGM_Images/baboon.ascii.pgm
+Processing image: /home/coder/project/boxFilterNPP/PGM_Images/saturn.ascii.pgm
+Image dimensions: 640x480
+Running Gaussian blur filter...
+NPP_CHECK_NPP - eStatusNPP = -1000 for file: /home/coder/project/boxFilterNPP/PGM_Images/saturn.ascii.pgm
+Retrying (1/3) for image: /home/coder/project/boxFilterNPP/PGM_Images/saturn.ascii.pgm
+Processing image: /home/coder/project/boxFilterNPP/PGM_Images/saturn.ascii.pgm
+Image dimensions: 640x480
+Running Gaussian blur filter...
+Filter applied successfully.
+Saved image: /home/coder/project/boxFilterNPP/PGM_Images/processed/saturn.ascii_gaussianBlur.png
+Finished processing image: /home/coder/project/boxFilterNPP/PGM_Images/saturn.ascii.pgm
+Processing image: /home/coder/project/boxFilterNPP/PGM_Images/gator.ascii.pgm
+Image dimensions: 633x621
+Running Gaussian blur filter...
+NPP_CHECK_NPP - eStatusNPP = -1000 for file: /home/coder/project/boxFilterNPP/PGM_Images/gator.ascii.pgm
+Retrying (1/3) for image: /home/coder/project/boxFilterNPP/PGM_Images/gator.ascii.pgm
+Processing image: /home/coder/project/boxFilterNPP/PGM_Images/gator.ascii.pgm
+Image dimensions: 633x621
+Running Gaussian blur filter...
+Filter applied successfully.
+Saved image: /home/coder/project/boxFilterNPP/PGM_Images/processed/gator.ascii_gaussianBlur.png
+Finished processing image: /home/coder/project/boxFilterNPP/PGM_Images/gator.ascii.pgm
+Processing image: /home/coder/project/boxFilterNPP/PGM_Images/coins.ascii.pgm
+Image dimensions: 300x246
+Running Gaussian blur filter...
+NPP_CHECK_NPP - eStatusNPP = -1000 for file: /home/coder/project/boxFilterNPP/PGM_Images/coins.ascii.pgm
+Retrying (1/3) for image: /home/coder/project/boxFilterNPP/PGM_Images/coins.ascii.pgm
+Processing image: /home/coder/project/boxFilterNPP/PGM_Images/coins.ascii.pgm
+Image dimensions: 300x246
+Running Gaussian blur filter...
+Filter applied successfully.
+Saved image: /home/coder/project/boxFilterNPP/PGM_Images/processed/coins.ascii_gaussianBlur.png
+Finished processing image: /home/coder/project/boxFilterNPP/PGM_Images/coins.ascii.pgm
+Processing image: /home/coder/project/boxFilterNPP/PGM_Images/balloons.ascii.pgm
+Image dimensions: 640x480
+Running Gaussian blur filter...
+NPP_CHECK_NPP - eStatusNPP = -1000 for file: /home/coder/project/boxFilterNPP/PGM_Images/balloons.ascii.pgm
+Retrying (1/3) for image: /home/coder/project/boxFilterNPP/PGM_Images/balloons.ascii.pgm
+Processing image: /home/coder/project/boxFilterNPP/PGM_Images/balloons.ascii.pgm
+Image dimensions: 640x480
+Running Gaussian blur filter...
+Filter applied successfully.
+Saved image: /home/coder/project/boxFilterNPP/PGM_Images/processed/balloons.ascii_gaussianBlur.png
+Finished processing image: /home/coder/project/boxFilterNPP/PGM_Images/balloons.ascii.pgm
